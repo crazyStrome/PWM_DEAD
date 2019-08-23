@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            08/22/2019 - 15:58
+SOURCE          C:\Users\14154\Desktop\PWM_DEAD-master\pwm_with_outterbutton.mcs
+DEVICE          1024K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x08EB8AC0
+START_ADDRESS   0x00000000 END_ADDRESS 0x00071543 DIRECTION_UP   "C:/Users/14154/Desktop/PWM_DEAD-master/pwm.bit" 6slx16csg324

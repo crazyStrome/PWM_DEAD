@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Users\14154\Desktop\PWM_DEAD-master//pwm -s 1024 -u 0000 C:/Users/14154/Desktop/PWM_DEAD-master/pwm.bit -spi 
+
+PROM C:\Users\14154\Desktop\PWM_DEAD-master\pwm.prm map: Thu Aug 15 20:42:34 2019
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          1024K
+PROM start    0000:0000
+PROM end      000f:ffff
+PROM checksum 08ee1469
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0007:1543     Aug 15 20:37:24 2019 C:/Users/14154/Desktop/PWM_DEAD-master/pwm.bit

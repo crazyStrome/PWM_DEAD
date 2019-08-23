@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/14154/Desktop/PWM_DEAD-master/pwmtest_isim_beh.exe" -prj "C:/Users/14154/Desktop/PWM_DEAD-master/pwmtest_beh.prj" "work.pwmtest" "work.glbl" 

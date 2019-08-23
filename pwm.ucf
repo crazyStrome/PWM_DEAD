@@ -1,0 +1,21 @@
+Net clk					LOC = V10 | IOSTANDARD = "LVCMOS33";
+
+Net rst 				LOC = N4 | IOSTANDARD = "LVCMOS18";
+
+Net leds[0]				LOC = T10 | IOSTANDARD = "LVCMOS33";
+Net leds[1] 			LOC = N10 | IOSTANDARD = "LVCMOS33";
+Net leds[2] 			LOC = T12 | IOSTANDARD = "LVCMOS33";
+Net leds[3] 			LOC = R10 | IOSTANDARD = "LVCMOS33";
+
+#Net buttons<0> 			LOC = P4 | IOSTANDARD = "LVCMOS18";
+#Net buttons<1>			LOC = F6 | IOSTANDARD = "LVCMOS18";
+#Net buttons<2>			LOC = E4 | IOSTANDARD = "LVCMOS18";
+#Net buttons<3> 			LOC = F5 | IOSTANDARD = "LVCMOS18";
+
+Net buttons<0> 			LOC = F16 | IOSTANDARD = "LVCMOS18";
+Net buttons<1>			LOC = E18 | IOSTANDARD = "LVCMOS18";
+Net buttons<2>			LOC = N17 | IOSTANDARD = "LVCMOS18";
+Net buttons<3> 			LOC = M16 | IOSTANDARD = "LVCMOS18";
+
+Net pwm1				LOC = C17 | IOSTANDARD = "LVCMOS33";
+Net pwm2				LOC = L14 | IOSTANDARD = "LVCMOS33";

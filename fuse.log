@@ -1,0 +1,26 @@
+Running: D:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/14154/Desktop/PWM_DEAD-master/pwmtest_isim_beh.exe -prj C:/Users/14154/Desktop/PWM_DEAD-master/pwmtest_beh.prj work.pwmtest work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/14154/Desktop/PWM_DEAD-master/ipcore_dir/pll_controller.v" into library work
+Analyzing Verilog file "C:/Users/14154/Desktop/PWM_DEAD-master/pwm.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/14154/Desktop/PWM_DEAD-master/pwm.v" Line 35: Redeclaration of ansi port leds is not allowed
+Analyzing Verilog file "C:/Users/14154/Desktop/PWM_DEAD-master/pwmtest.v" into library work
+Analyzing Verilog file "D:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IBUFG
+Compiling module PLL_ADV(BANDWIDTH="OPTIMIZED",CL...
+Compiling module PLL_BASE(CLKFBOUT_MULT=8,CLKIN_P...
+Compiling module pll_controller
+Compiling module keyDelay
+Compiling module pwm
+Compiling module pwmtest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable C:/Users/14154/Desktop/PWM_DEAD-master/pwmtest_isim_beh.exe
+Fuse Memory Usage: 42428 KB
+Fuse CPU Usage: 609 ms
